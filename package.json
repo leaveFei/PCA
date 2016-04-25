@@ -1,0 +1,46 @@
+{
+  "name": "ml-pca",
+  "version": "0.1.1",
+  "description": "Principal component analysis",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require should-approximately-deep --reporter mocha-better-spec-reporter --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mljs/pca.git"
+  },
+  "keywords": [
+    "pca",
+    "principal",
+    "component",
+    "analysis",
+    "dimensionality",
+    "reduction",
+    "data",
+    "mining",
+    "datamining",
+    "machine",
+    "learning"
+  ],
+  "author": "Jefferson Hernández",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mljs/pca/issues"
+  },
+  "homepage": "https://github.com/mljs/pca",
+  "dependencies": {
+    "ml-matrix": "^1.0.3",
+    "ml-stat": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "mocha-better-spec-reporter": "^3.0.1",
+    "should": "^7.1.1",
+    "should-approximately-deep": "^1.1.0"
+  }
+}
